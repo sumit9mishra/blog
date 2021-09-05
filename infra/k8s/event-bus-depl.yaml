@@ -24,8 +24,7 @@ spec:
   selector:
     app: event-bus
   ports:
-    port:
-    - name: event-bus
-      protocol: TCP
-      port: 4005
-      targetPort: 4005
+  - name: event-bus
+    protocol: TCP
+    port: 4005
+    targetPort: 4005
