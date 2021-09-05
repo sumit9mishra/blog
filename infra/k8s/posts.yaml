@@ -1,0 +1,7 @@
+appVersion: v1
+kind: pod
+metadat:
+  name: posts
+spec:
+  containers:
+    - name: sumiitmiishra/posts:0.0.1
